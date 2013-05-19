@@ -1,0 +1,31 @@
+/* index_hot */
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-drag: none;
+	padding: 0;
+	margin: 0;
+}
+#carousel img{
+	width: 420px;
+}
+#carousel {
+	width: 420px;
+	margin: 0 auto;
+	border: 20px solid red;
+}
+#carousel div{
+	background: red;
+	min-height: 150px;
+	position: relative;
+}
+#carousel div span{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	font-size: 80px;
+	line-height: 400px;
+	font-weight: bold;
+	text-align: center;
+}
